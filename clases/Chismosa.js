@@ -34,4 +34,16 @@
         return this.#nivelChisme
     }
     
+    subirNivel(valor) {
+    this.#nivelChisme = Math.min(this.#nivelChisme + valor, 10);
+}
+
+subirReputacion(valor) {
+    this.#reputacion = Math.min(this.#reputacion + valor, 10);
+}
+
+bajarReputacion(valor) {
+    this.#reputacion = Math.max(this.#reputacion - valor, 0);
+}
+
 }

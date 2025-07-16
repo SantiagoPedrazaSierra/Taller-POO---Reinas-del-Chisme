@@ -1,4 +1,4 @@
- import { Chismosa } from "./Chismosa";
+ import { Chismosa } from "./Chismosa.js";
 
  export class EstudianteEspia extends Chismosa{
     constructor(nombre, reputacion, nivelChisme){
