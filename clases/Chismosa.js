@@ -1,5 +1,5 @@
 // Clase abstracta
-class Chismosa {
+ export class Chismosa {
     #reputacion
     #nivelChisme
 
